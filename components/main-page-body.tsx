@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import styles from "../styles/MainBody.module.css";
+import styles from "./MainBody.module.css";
 
 export default function MainBody() {
     return (
@@ -32,7 +32,7 @@ export default function MainBody() {
                 >
                     My name is Xavier
                     Charles Hazzard and
-                    I am a young,
+                    I am a 15 year old,
                     aspiring Software
                     Engineer from Kent,
                     England.
@@ -86,8 +86,8 @@ export default function MainBody() {
                             "/main-body-image.png"
                         }
                         alt="Cartoon Image of myself"
-                        height={823}
-                        width={823}
+                        height={680}
+                        width={680}
                     />
                 </div>
             </section>
