@@ -85,9 +85,10 @@ export default function MainBody() {
                         src={
                             "/main-body-image.png"
                         }
+                        width={100}
+                        height={100}
                         alt="Cartoon Image of myself"
-                        height={680}
-                        width={680}
+                        layout="responsive"
                     />
                 </div>
             </section>

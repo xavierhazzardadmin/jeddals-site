@@ -2,6 +2,20 @@
 
 :root {
     --main-text-color: #4798fc;
+    --main-bg-color: #2e3047;
+    font-size: 4px;
+}
+
+@media screen and (min-width: 800px) {
+    :root {
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    :root {
+        font-size: 6px;
+    }
 }
 
 @media screen and (min-width: 1080px) {
@@ -25,7 +39,7 @@ body {
         Roboto, Oxygen, Ubuntu,
         Cantarell, Fira Sans, Droid Sans,
         Helvetica Neue, sans-serif;
-    background: #2e3047;
+    background: var(--main-bg-color);
     position: relative;
     padding-bottom: 4vh;
     overflow: hidden;

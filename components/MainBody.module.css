@@ -1,12 +1,12 @@
 .main-body-container {
     width: 100%;
-    height: 94vh;
+    height: 96vh;
     display: grid;
     grid-template-columns: repeat(
         2,
         1fr
     );
-    grid-template-rows: 94vh;
+    grid-template-rows: 96vh;
 }
 
 .left {
@@ -34,8 +34,16 @@
 }
 
 .main-body-image {
-    margin-top: 2rem;
-    margin-left: 3rem;
+    margin: 3rem;
+    width: 80rem;
+    height: 80rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .main-body-image {
+        width: 60rem;
+        height: 60rem;
+    }
 }
 
 .main-body-hero {
