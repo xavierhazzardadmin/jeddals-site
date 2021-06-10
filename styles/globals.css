@@ -3,7 +3,7 @@
 :root {
     --main-text-color: #4798fc;
     --main-bg-color: #2e3047;
-    font-size: 4px;
+    font-size: 6px;
 }
 
 @media screen and (min-width: 800px) {
