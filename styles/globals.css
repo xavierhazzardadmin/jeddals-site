@@ -42,7 +42,7 @@ body {
     background: var(--main-bg-color);
     position: relative;
     padding-bottom: 4vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 a {

@@ -38,28 +38,33 @@ export default function MainBody() {
                     England.
                 </p>
                 <br />
-                <p
+                <div
                     className={
                         styles[
                             "main-body-text"
                         ]
                     }
                 >
-                    Welcome to my
-                    website where you
-                    can learn about me,
-                    browse the projects
-                    I have worked on and
-                    view the
-                    technologies that I
-                    have learned to work
-                    with over the time I
-                    have been learning
-                    to code. You can
-                    also contact me via
-                    form on the contact
-                    me page.
-                </p>
+                    <p>
+                        Welcome to my
+                        website where
+                        you can learn
+                        about me, browse
+                        the projects I
+                        have worked on
+                        and view the
+                        technologies
+                        that I have
+                        learned to work
+                        with over the
+                        time I have been
+                        learning to
+                        code. You can
+                        also contact me
+                        via form on the
+                        contact me page.
+                    </p>
+                </div>
                 <h1
                     className={
                         styles[
