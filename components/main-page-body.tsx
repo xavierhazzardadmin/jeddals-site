@@ -90,10 +90,10 @@ export default function MainBody() {
                         src={
                             "/main-body-image.png"
                         }
-                        width={100}
-                        height={100}
+                        width={660}
+                        height={660}
                         alt="Cartoon Image of myself"
-                        layout="responsive"
+                        priority
                     />
                 </div>
             </section>

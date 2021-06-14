@@ -34,14 +34,10 @@
 
 .main-body-image {
     margin: 3rem;
-    width: 80rem;
-    height: 80rem;
 }
 
 @media screen and (min-width: 2000px) {
     .main-body-image {
-        width: 60rem;
-        height: 60rem;
     }
 }
 
@@ -58,7 +54,7 @@
     .main-body-container {
         grid-template-rows: repeat(
             2,
-            60vh
+            90vh
         );
         grid-template-columns: 100vw;
     }
