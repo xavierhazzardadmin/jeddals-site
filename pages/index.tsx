@@ -1,9 +1,8 @@
 import Head from "next/head";
 
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
 import MainBody from "../components/main-page-body";
 import styles from "../styles/Home.module.css";
+import Layout from "../components/layout";
 
 export default function Home() {
     return (
@@ -24,9 +23,9 @@ export default function Home() {
                     href="/favicon.ico"
                 />
             </Head>
-            <Navbar />
-            <MainBody />
-            <Footer />
+            <Layout>
+                <MainBody />
+            </Layout>
         </div>
     );
 }

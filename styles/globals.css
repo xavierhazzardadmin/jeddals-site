@@ -41,7 +41,6 @@ body {
         Helvetica Neue, sans-serif;
     background: var(--main-bg-color);
     position: relative;
-    padding-bottom: 4vh;
     overflow-x: hidden;
 }
 
