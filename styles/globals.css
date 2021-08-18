@@ -41,8 +41,12 @@ body {
         Helvetica Neue, sans-serif;
     background: var(--main-bg-color);
     position: relative;
-    padding-bottom: 4vh;
     overflow-x: hidden;
+}
+
+.page-container {
+    display: grid;
+    grid-template-rows: 10vh 88vh 2vh;
 }
 
 a {

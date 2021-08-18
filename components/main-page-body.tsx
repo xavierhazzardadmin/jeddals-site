@@ -56,9 +56,9 @@ export default function MainBody() {
                         technologies
                         that I have
                         learned to work
-                        with over the
-                        time I have been
-                        learning to
+                        with over the 2
+                        years I have
+                        been learning to
                         code. You can
                         also contact me
                         via form on the

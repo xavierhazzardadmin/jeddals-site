@@ -1,6 +1,8 @@
 @import url("https://use.typekit.net/gtw7drm.css");
 
 .navbar {
+    grid-row-start: 1;
+    grid-row-end: 2;
     width: 100vw;
     height: 10vh;
     background: #3c3f58;

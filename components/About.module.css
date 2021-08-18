@@ -1,0 +1,38 @@
+.container {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(
+        2,
+        1fr
+    );
+}
+
+.left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    /* display: grid; */
+    /* grid-template-rows: 8vh 1fr; */
+}
+
+.right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.subheader {
+    font-family: Fino, serif;
+    color: var(--main-text-color);
+    font-size: 6rem;
+    margin: 3rem 3rem;
+}
+
+.body-text {
+    font-family: Protipo, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: white;
+    text-align: justify;
+    margin: 2rem 3rem 2rem 3rem;
+}
