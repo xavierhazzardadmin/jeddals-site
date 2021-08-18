@@ -1,8 +1,6 @@
 @import url("https://use.typekit.net/gtw7drm.css");
 
 .navbar {
-    position: fixed;
-    top: 0;
     width: 100vw;
     height: 10vh;
     background: #3c3f58;
@@ -11,7 +9,6 @@
     display: grid;
     grid-template-columns: 4fr 4fr 1fr;
     grid-template-rows: 10vh;
-    z-index: 99;
 }
 
 .links {
@@ -24,7 +21,7 @@
     grid-column-end: 2;
     display: grid;
     grid-template-columns: repeat(
-        3,
+        4,
         1fr
     );
     grid-template-rows: 10vh;
@@ -87,7 +84,7 @@
         background: #43455c;
         display: block;
         text-align: center;
-        font-size: 5rem;
+        font-size: 6rem;
         font-family: Fino;
         z-index: 99;
     }
@@ -103,7 +100,7 @@
         background: #43455c;
         display: block;
         text-align: center;
-        font-size: 5rem;
+        font-size: 6rem;
         z-index: 99;
     }
     .links li,
