@@ -11,7 +11,7 @@ type technology = {
 };
 
 export default function TechGrid() {
-    const size = "fa-10x";
+    const size: number = 7;
     const technologies: technology[] = [
         {
             name: "react",
@@ -86,7 +86,7 @@ export default function TechGrid() {
         {
             name: "github",
             styles: {
-                color: "grey",
+                color: "#35484f",
             },
             id: 11,
         },
@@ -101,9 +101,27 @@ export default function TechGrid() {
 
     const gridItems = technologies.map(
         (tech) => {
+            if (
+                tech.name == "sass" ||
+                tech.name == "npm"
+            ) {
+                return (
+                    <i
+                        className={`fab fa-${
+                            tech.name
+                        } fa-${
+                            size - 1
+                        }x`}
+                        style={
+                            tech.styles
+                        }
+                        key={tech.id}
+                    ></i>
+                );
+            }
             return (
                 <i
-                    className={`fab fa-${tech.name} ${size}`}
+                    className={`fab fa-${tech.name} fa-${size}x`}
                     style={tech.styles}
                     key={tech.id}
                 ></i>

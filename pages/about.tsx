@@ -1,4 +1,5 @@
 import styles from "../components/About.module.css";
+import gridStyles from "../components/Grid.module.css";
 import Layout from "../components/layout";
 import TechGrid from "../components/techGrid";
 
@@ -7,12 +8,12 @@ export default function AboutPage() {
         <Layout title="Xavier Hazzard - About">
             <div
                 className={
-                    styles.container
+                    gridStyles.container
                 }
             >
                 <div
                     className={
-                        styles.left
+                        gridStyles.left
                     }
                 >
                     <h1
@@ -29,7 +30,7 @@ export default function AboutPage() {
                             ]
                         }
                     >
-                        I enjoy
+                        I love
                         Technology,
                         especially
                         computers.
@@ -80,10 +81,20 @@ export default function AboutPage() {
                         Programming
                         Language.
                     </p>
+                    <h1
+                        className={
+                            (styles.hero,
+                            styles.subheader)
+                        }
+                    >
+                        Here's all the
+                        technologies I
+                        know!
+                    </h1>
                 </div>
                 <div
                     className={
-                        styles.right
+                        gridStyles.right
                     }
                 >
                     <TechGrid />

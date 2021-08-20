@@ -46,10 +46,10 @@ body {
 
 .page-container {
     display: grid;
-    grid-template-rows: 10vh minmax(
-            88vh,
-            100%
-        ) 2vh;
+    grid-template-rows:
+        10vh minmax(88vh, 100%)
+        2vh;
+    grid-template-columns: 100vw;
 }
 
 .page-container.navOpen {
