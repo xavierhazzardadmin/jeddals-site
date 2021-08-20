@@ -114,6 +114,13 @@ export default function Navbar() {
                                 (
                                     curVal
                                 ) => {
+                                    document
+                                        .querySelector(
+                                            ".page-container"
+                                        )
+                                        ?.classList.toggle(
+                                            "navOpen"
+                                        );
                                     return !curVal;
                                 }
                             );

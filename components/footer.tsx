@@ -2,11 +2,13 @@ import styles from "./Footer.module.css";
 
 export default function Footer() {
     return (
-        <div className={styles.footer}>
+        <footer
+            className={styles.footer}
+        >
             <span>
                 &copy; Xavier Hazzard
                 2021
             </span>
-        </div>
+        </footer>
     );
 }

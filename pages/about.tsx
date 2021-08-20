@@ -4,7 +4,7 @@ import TechGrid from "../components/techGrid";
 
 export default function AboutPage() {
     return (
-        <Layout title="Xavier Hazzard | About">
+        <Layout title="Xavier Hazzard - About">
             <div
                 className={
                     styles.container

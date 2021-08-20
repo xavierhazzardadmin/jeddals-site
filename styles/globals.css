@@ -46,7 +46,19 @@ body {
 
 .page-container {
     display: grid;
-    grid-template-rows: 10vh 88vh 2vh;
+    grid-template-rows: 10vh minmax(
+            88vh,
+            100%
+        ) 2vh;
+}
+
+.page-container.navOpen {
+    grid-template-rows: 10vh 90vh;
+    overflow: hidden;
+}
+
+.page-container.navOpen footer {
+    display: none;
 }
 
 a {
