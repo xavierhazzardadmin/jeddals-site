@@ -88,8 +88,9 @@ export default function AboutPage() {
                         }
                     >
                         Here's all the
-                        technologies I
-                        know!
+                        technologies
+                        I've worked
+                        with!
                     </h1>
                 </div>
                 <div
