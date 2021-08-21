@@ -1,13 +1,15 @@
 @import url("https://use.typekit.net/gtw7drm.css");
 
 .navbar {
+    grid-row-start: 1;
+    grid-row-end: 2;
     width: 100vw;
     height: 10vh;
     background: #3c3f58;
     color: var(--main-text-color);
     margin: 0;
     display: grid;
-    grid-template-columns: 4fr 5fr;
+    grid-template-columns: 4fr 4fr 1fr;
     grid-template-rows: 10vh;
 }
 
@@ -48,4 +50,68 @@
     grid-column-end: 3;
     justify-self: start;
     align-self: center;
+}
+
+.sliderToggle {
+    display: inline;
+    width: 10rem;
+    height: 10rem;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    justify-self: end;
+    align-self: center;
+    margin: 0 5rem 0 0;
+}
+
+.sliderToggle svg {
+    width: 8.9rem !important;
+    height: 8.9rem !important;
+    justify-self: end;
+    align-self: center;
+}
+
+@media screen and (min-width: 800px) {
+    .sliderToggle {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .links {
+        width: 100vw;
+        height: 90vh;
+        position: absolute;
+        top: 10vh;
+        left: 100vw;
+        background: #43455c;
+        display: block;
+        text-align: center;
+        font-size: 6rem;
+        font-family: Fino;
+        z-index: 99;
+    }
+
+    .navOpen {
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 90vh;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        background: #43455c;
+        display: block;
+        text-align: center;
+        font-size: 6rem;
+        z-index: 99;
+    }
+    .links li,
+    .navOpen li {
+        display: block;
+        margin: 16rem;
+    }
+
+    .title {
+        font-size: 12rem;
+    }
 }

@@ -3,7 +3,7 @@
 :root {
     --main-text-color: #4798fc;
     --main-bg-color: #2e3047;
-    font-size: 4px;
+    font-size: 6px;
 }
 
 @media screen and (min-width: 800px) {
@@ -41,8 +41,24 @@ body {
         Helvetica Neue, sans-serif;
     background: var(--main-bg-color);
     position: relative;
-    padding-bottom: 4vh;
+    overflow-x: hidden;
+}
+
+.page-container {
+    display: grid;
+    grid-template-rows:
+        10vh minmax(88vh, 100%)
+        2vh;
+    grid-template-columns: 100vw;
+}
+
+.page-container.navOpen {
+    grid-template-rows: 10vh 90vh;
     overflow: hidden;
+}
+
+.page-container.navOpen footer {
+    display: none;
 }
 
 a {
