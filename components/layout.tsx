@@ -42,6 +42,18 @@ export default function Layout({
                     name="viewport"
                     content="width=device-width, initial-scale=1.0"
                 />
+                <meta
+                    name="description"
+                    content="Xavier Hazzard's website"
+                />
+                <meta
+                    name="keywords"
+                    content="Xavier Hazzard, Xavier Hazzard's website"
+                />
+                <meta
+                    name="author"
+                    content="Xavier Hazzard"
+                />
                 <link
                     rel="icon"
                     type="image/png"
