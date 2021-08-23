@@ -59,6 +59,10 @@ export default function Layout({
                     type="image/png"
                     href="icon.png"
                 />
+                <link
+                    rel="preconnect"
+                    href="https://kit.fontawesome.com/c7a6f77d43.js"
+                />
             </Head>
             <div className="page-container">
                 <Navbar />
