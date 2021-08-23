@@ -41,8 +41,8 @@ export default function AboutPage() {
                         favourite.
                         Photography,
                         including
-                        landscape and
-                        wedding
+                        landscape, macro
+                        and wedding
                         photography.
                         Graphic Design,
                         I'm only an
