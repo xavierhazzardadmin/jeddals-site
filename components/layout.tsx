@@ -42,10 +42,9 @@ export default function Layout({
                     href="icon.png"
                 />
                 <link
-                    rel="preload"
+                    rel="preconnect"
                     crossOrigin="anonymous"
-                    as="style"
-                    href="https://use.typekit.net/gtw7drm.css"
+                    href="https://use.typekit.net"
                 />
             </Head>
             <div className="page-container">
