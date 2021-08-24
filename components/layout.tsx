@@ -4,7 +4,6 @@ import Footer from "./footer";
 import Head from "next/head";
 import React, {
     ReactNode,
-    useEffect,
 } from "react";
 
 type Props = {
@@ -16,23 +15,6 @@ export default function Layout({
     children,
     title = "Xavier Hazzard",
 }: Props) {
-    useEffect(() => {
-        const script = document.createElement(
-            "script"
-        );
-
-        script.src =
-            "https://kit.fontawesome.com/c7a6f77d43.js";
-
-        script.async = true;
-
-        script.crossOrigin =
-            "anonymous";
-
-        document.head.appendChild(
-            script
-        );
-    }, []);
     return (
         <>
             <Head>
@@ -58,10 +40,6 @@ export default function Layout({
                     rel="icon"
                     type="image/png"
                     href="icon.png"
-                />
-                <link
-                    rel="preconnect"
-                    href="https://kit.fontawesome.com/c7a6f77d43.js"
                 />
             </Head>
             <div className="page-container">
