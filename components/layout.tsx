@@ -41,6 +41,12 @@ export default function Layout({
                     type="image/png"
                     href="icon.png"
                 />
+                <link
+                    rel="preload"
+                    crossOrigin="anonymous"
+                    as="style"
+                    href="https://use.typekit.net/gtw7drm.css"
+                />
             </Head>
             <div className="page-container">
                 <Navbar />
