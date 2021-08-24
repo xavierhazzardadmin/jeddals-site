@@ -20,6 +20,13 @@ export default function Layout({
             <Head>
                 <title>{title}</title>
                 <meta charSet="utf-8" />
+                <link
+                    rel="stylesheet proload"
+                    crossOrigin="anonymous"
+                    as="style"
+                    type="text/css"
+                    href="https://use.typekit.net/gtw7drm.css"
+                />
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1.0"
@@ -42,9 +49,8 @@ export default function Layout({
                     href="icon.png"
                 />
                 <link
-                    rel="preconnect"
-                    crossOrigin="anonymous"
-                    href="https://use.typekit.net"
+                    rel="stylesheet"
+                    href="https://use.typekit.net/gtw7drm.css"
                 />
             </Head>
             <div className="page-container">
