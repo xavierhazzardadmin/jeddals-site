@@ -10,7 +10,12 @@ class MyDocument extends Document {
     render() {
         return (
             <Html lang="en-GB">
-                <Head />
+                <Head>
+                    <link
+                        rel="stylesheet"
+                        href="https://use.typekit.net/gtw7drm.css"
+                    />
+                </Head>
                 <body>
                     <Main />
                     <NextScript />
