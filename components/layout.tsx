@@ -55,6 +55,10 @@ export default function Layout({
                     property="og:description"
                     content="Xavier Hazzard's website"
                 />
+                <meta
+                    property="og:locale"
+                    content="en_GB"
+                />
                 <link
                     rel="icon"
                     type="image/png"
