@@ -43,6 +43,18 @@ export default function Layout({
                     name="author"
                     content="Xavier Hazzard"
                 />
+                <meta
+                    property="og:image"
+                    content="https://avatars.githubusercontent.com/u/19726688?v=4"
+                />
+                <meta
+                    property="og:title"
+                    content="Xavier Hazzard"
+                />
+                <meta
+                    property="og:description"
+                    content="Xavier Hazzard's website"
+                />
                 <link
                     rel="icon"
                     type="image/png"
